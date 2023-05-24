@@ -1,0 +1,26 @@
+.quarter-circle {
+    width: 280px;
+    height: 140px;
+    background-color: #f2f2f2;
+    border-radius: 0 0 100% 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.quarter-circle-2 {
+    width: 280px;
+    height: 250px;
+    background-color: grey;
+    border-radius: 00% 100% 00% 00%;
+    position: relative;
+    overflow: hidden;
+}
+
+.quarter-circle-3 {
+    width: 350px;
+    height: 250px;
+    background-color: #e2cf63;
+    border-radius: 100% 00% 00% 00%;
+    position: relative;
+    overflow: hidden;
+}
