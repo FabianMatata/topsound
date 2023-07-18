@@ -217,24 +217,71 @@
 
 /* clients  */
 
-.quarter-circle {
-    position: absolute;
-    bottom: 0;
-    left: 0%;
-    width: 900px;
-    height: 800px;
-    background-color: #f5f5f5;
-    border-radius: 00px 100% 00px 00px;
-}
 
-.image-container {
-    position: relative;
-    display: inline-block;
-}
+/* .quarter-circle { */
+
+
+/* position: absolute; */
+
+
+/* bottom: 0; */
+
+
+/* left: 0%; */
+
+
+/* width: 1000px; */
+
+
+/* height: 900px; */
+
+
+/* background-color: #f5f5f5; */
+
+
+/* border-radius: 00px 100% 00px 00px; */
+
+
+/* } */
+
+
+/*  */
+
+
+/* .image-container { */
+
+
+/* position: relative; */
+
+
+/* display: inline-block; */
+
+
+/* } */
 
 .quarter-circle img {
     /* height: 100px; */
-    /* width: 100px; */
+    /* width: 200px; */
+}
+
+.quarter-circle {
+    width: 1000px;
+    height: 1000px;
+    /* border-radius: 00px 100% 00px 00px; */
+    border-radius: 0 100% 0 0;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    margin-top: -800px;
+}
+
+.quarter-circle img {
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    width: 20%;
+    height: 20%;
+    /* object-fit: cover; */
 }
 
 
