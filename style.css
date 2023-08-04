@@ -286,3 +286,17 @@
 
 
 /* clients 2  */
+
+.dj {
+    background-image: url(./img/dj.jpg);
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
