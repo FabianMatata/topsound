@@ -264,16 +264,16 @@
     /* width: 200px; */
 }
 
-.quarter-circle {
-    width: 1000px;
-    height: 1000px;
+/* .quarter-circle { */
+    /* width: 1000px; */
+    /* height: 1000px; */
     /* border-radius: 00px 100% 00px 00px; */
-    border-radius: 0 100% 0 0;
-    background-color: white;
-    overflow: hidden;
-    position: relative;
-    margin-top: -800px;
-}
+    /* border-radius: 0 100% 0 0; */
+    /* background-color: white; */
+    /* overflow: hidden; */
+    /* position: relative; */
+    /* margin-top: -800px; */
+/* } */
 
 .quarter-circle img {
     position: absolute;
