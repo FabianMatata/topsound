@@ -47,7 +47,6 @@
     color: #017bf5;
     border-left: 5px solid #017bf5;
     border-right: 5px solid #017bf5;
-    /* background: rgba(0, 0, 0, 0.05); */
 }
 .main p {
     position: relative;
@@ -66,7 +65,6 @@
     padding: 45px 0;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    /*i write auto four time because we want four rows*/
     grid-gap: 1vh;
     grid-auto-flow: dense;
 }
@@ -100,13 +98,10 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    /* filter: brightness(0.5) grayscale(100); */
     border-radius: 1px;
     transition: 0.3s ease-in-out;
 }
-.main .gallery .img:hover img {
-    /* filter: brightness(1) grayscale(0); */
-}
+
 @media only screen and (max-width: 768px) {
     .main h1 {
         font-size: 1.8em;
@@ -147,7 +142,6 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    /* border: px solid white; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -155,54 +149,11 @@
     margin-top: -45px;
     background-color: brown;
 }
-/* .clients { */
-/* width: 700px; */
-/* height: 700px; */
-/* border-radius: 50%; */
-/* border: px solid white; */
-/* background-size: cover; */
-/* background-position: center; */
-/* background-repeat: no-repeat; */
-/* margin-left: 25%; */
-/* background-color: brown; */
-/* margin-top: -200px; */
-/* } */
-/* clients  */
-/* .quarter-circle { */
-/* position: absolute; */
-/* bottom: 0; */
-/* left: 0%; */
-/* width: 1000px; */
-/* height: 900px; */
-/* background-color: #f5f5f5; */
-/* border-radius: 00px 100% 00px 00px; */
-/* } */
-/*  */
-/* .image-container { */
-/* position: relative; */
-/* display: inline-block; */
-/* } */
-.quarter-circle img {
-    /* height: 100px; */
-    /* width: 200px; */
-}
-/* .quarter-circle { */
-/* width: 1000px; */
-/* height: 1000px; */
-/* border-radius: 00px 100% 00px 00px; */
-/* border-radius: 0 100% 0 0; */
-/* background-color: white; */
-/* overflow: hidden; */
-/* position: relative; */
-/* margin-top: -800px; */
-/* } */
+
 .quarter-circle img {
     position: absolute;
-    /* top: 0; */
-    /* left: 0; */
     width: 20%;
     height: 20%;
-    /* object-fit: cover; */
 }
 /* clients 2  */
 .dj {
@@ -222,24 +173,21 @@
 .ours {
     height: 550px;
     background-image: url(./img/dj.jpg);
-    background-size: cover; /* Make the image cover the container */
+    background-size: cover; 
     background-repeat: no-repeat; 
 }
 .solid-white-line {
-    width: 85%; /* Adjust the width of the line as needed */
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
-    height: 2px; /* Adjust the height of the line as needed */
-    background-color: white; /* Set the line color to white */
+    height: 2px; 
+    background-color: white; 
 }
 /* Style for the rectangle */
 .rectangle {
     width: 500px;
     height: 330px;
-    /* background-color: #3498db; */
-    /* Rectangle background color */
     border: 2px solid #2980b9;
-    /* Rectangle border color */
     padding: 40px;
     margin: 50px auto;
     border-width: 5px;
@@ -268,10 +216,6 @@
 /* fiddle */
 /*new*/
 .box {
-    /* width: 150px; */
-    /* height: 75px; */
-    /* background-color: black; */
-    /* color: #fff; */
     padding: 20px;
     position: relative;
     margin: 40px;
@@ -288,13 +232,8 @@
     border-bottom: 15px solid transparent;
   }
 /* fiddle */
-.fiddle2 {
-    /* background:#ff004e; */
-    /* padding:80px; */
-}
 .fiddle {
-    background: lime;
-    /* border-radius: 10px; */
+    background-color: lime;
     width:432px;
     height:255px;
     position: relative;
@@ -302,26 +241,13 @@
 }
 .fiddle:before {
     content:"";
-    /* position: absolute; */
-    /* height: 0px; */
-    /* width: 0px; */
-    /* top: 60px; */
-    /* left: -29px; */
-    /* right: 79px; */
-    /* border-width: 15px; */
-    /* border-color: transparent grey transparent transparent; */
-    /* border-style: solid; */
 }
 #pointer{border:solid 30px transparent;border-left-color: lime;position:absolute;margin:-145px 0px 0px 432px;}
 footer {
-    /* background-image: url(./img/wave.jpg); */
     background-repeat: no-repeat;
     opacity: 0.9;
-    /* width: 2000px; */
     background-size:100% 100%;
 }
-
-
 .clients img {
     height: 100px;
     width: 150px;
@@ -330,15 +256,41 @@ footer {
     background-image: url(./img/merutents.jpg);
     background-repeat: no-repeat;
     background-size:100% 100%;
-
 }
 .clientsss{
     background-color: #fff;
-    border-radius: ;
     padding-right: 100px;
     padding-top: 100px;
     border-top-right-radius: 65%;
     border-top-left-radius: 5%;
     padding-bottom: 20px;
+}
+
+.fidle {
+    background:#ff004e;
+    padding:80px;
+}
+.fidle p {
+    background:white;
+    border-radius: 10px;
+    width:250px;
+    height:150px;
+    position: relative;
+    display: inline-block;
+}
+.fidle p:before {
+    content:"";
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    top: 60px;
+    /* left: -29px; */
+    border-width: 15px;
+    border-color: transparent white transparent transparent;
+    border-style: solid;
+    border:solid 30px transparent;
+    border-left-color: lime;
+    position:absolute;
+    margin: 0px 0px 90px 170px;
 
 }
