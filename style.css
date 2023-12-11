@@ -320,3 +320,25 @@ footer {
     /* width: 2000px; */
     background-size:100% 100%;
 }
+
+
+.clients img {
+    height: 100px;
+    width: 150px;
+}
+.clientss {
+    background-image: url(./img/merutents.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+
+}
+.clientsss{
+    background-color: #fff;
+    border-radius: ;
+    padding-right: 100px;
+    padding-top: 100px;
+    border-top-right-radius: 65%;
+    border-top-left-radius: 5%;
+    padding-bottom: 20px;
+
+}
