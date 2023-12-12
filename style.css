@@ -267,14 +267,10 @@ footer {
 }
 
 .fidle {
-    background:#ff004e;
-    padding:80px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 .fidle p {
-    background:white;
-    border-radius: 10px;
-    width:250px;
-    height:150px;
     position: relative;
     display: inline-block;
 }
@@ -284,13 +280,58 @@ footer {
     height: 0px;
     width: 0px;
     top: 60px;
-    /* left: -29px; */
-    border-width: 15px;
+    border-width: 25px;
     border-color: transparent white transparent transparent;
     border-style: solid;
-    border:solid 30px transparent;
-    border-left-color: lime;
+    border:solid 40px transparent;
+    border-left-color: greenyellow;
     position:absolute;
-    margin: 0px 0px 90px 170px;
-
+    margin: 0px 0px 0px 238px;
 }
+
+.fidlee {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.fidlee p {
+    position: relative;
+    display: inline-block;
+}
+.fidlee p:before {
+    content:"";
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    top: 60px;
+    border-width: 25px;
+    border-color: transparent white transparent transparent;
+    border-style: solid;
+    border:solid 40px transparent;
+    border-left-color: #0082ca;
+    position:absolute;
+    margin: 0px 0px 0px 238px;
+}
+
+.fidleee {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.fidleee p {
+    position: relative;
+    display: inline-block;
+}
+.fidleee p:before {
+    content:"";
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    top: 60px;
+    border-width: 25px;
+    border-color: transparent white transparent transparent;
+    border-style: solid;
+    border:solid 40px transparent;
+    border-left-color: #00AD8A;
+    position:absolute;
+    margin: 0px 0px 0px 247px;
+}
+
