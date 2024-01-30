@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>topsound</title>
+    <title>TopSound</title>
+
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <!-- Google Fonts -->
@@ -13,78 +14,143 @@
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css" rel="stylesheet">
     <!--style css link-->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="stylee.css">
     <link rel="stylesheet" href="./gallery.css">
     <!--bootstrap cdn link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--clients items-->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+    <link rel="stylesheet" href="./stylee.css">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <section>
-        <div>
-            <div style="background-image: url(./img/tot.jpg); height: 900px; background-repeat: no-repeat; background-size: 100% 100%;">
-                
-                <!-- <div class="circlee">
-                    <p>hel <br>ooo</p>
-                    <p>dtyfgh</p>
-                </div> -->
-                <div class="Lorem">
-                    <div class="text-center">
-                        <p>Top Sound</p>
-                        <p>Audio & Visual Solutions</p>
-                    </div>
+    <!--Main Navigation-->
+    <header>
+        <style>
+            #intro {
+                background-image: url("./img/top.jpg");
+                height: 80vh;
+            }
+
+            /* Height for devices larger than 576px */
+            @media (min-width: 992px) {
+                #intro {
+                    margin-top: -58.59px;
+                }
+            }
+
+            .navbar .nav-link {
+                color: #fff !important;
+            }
+        </style>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+            <div class="container-fluid">
+                <!-- Navbar brand -->
+                <a class="navbar-brand nav-link px-4" target="_blank" href="">
+                    <strong>TopSound</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-mdb-collapse-init data-mdb-target="#navbarExample01"
+                    aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarExample01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" aria-current="page" href="#intro">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="" rel="nofollow" target="_blank">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="" target="_blank">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="" target="_blank">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="" target="_blank">Services</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav d-flex flex-row">
+                        <!-- Icons -->
+                        <li class="nav-item me-3 me-lg-0">
+                            <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA"
+                                rel="nofollow" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item me-3 me-lg-0">
+                            <a class="nav-link" href="https://www.facebook.com/mdbootstrap" rel="nofollow"
+                                target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item me-3 me-lg-0">
+                            <a class="nav-link" href="https://twitter.com/MDBootstrap" rel="nofollow" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item me-3 me-lg-0">
+                            <a class="nav-link" href="https://github.com/mdbootstrap/mdb-ui-kit" rel="nofollow"
+                                target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-
-                <div>
-                    <div class="text-uppercase px-5" style="color: white; font-weight: bolder;">
-                        <p class="" style="font-size: 99px; ">topsound</p>
-                        <p style="font-size: 46px;">entertainment ltd</p>
-                    </div>
-                </div>
-
-
-                <div class="outer">
-                    <div class="inner"></div>
-                  </div>
-                
-                  <div class="mx-5">
-                    <table>
-                        <tr>
-                            <td class="p-5"><div class="circlle"></div>
-                            </td>
-                            <td><div class="circlle"></div>
-                            </td>
-                            
-                        </tr>
-                    </table>
-                    
-
-                  </div>
-             
-
-                
-                <!-- <div class="wrapper">
-                  <div class="semi-circle" >
-                  </div>                    
-                </div> -->
-
             </div>
-               </div>
+        </nav>
+        <!-- Navbar -->
+
+        <!-- Background image -->
+        <div id="intro" class="bg-image shadow-2-strong">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.5);">
+                <div class="container d-flex align-items-center justify-content-center text-center h-100">
+                    <div class="text-white" data-mdb-theme="dark">
+                        <h1 class="mb-3">TopSound Entertainment Ltd</h1>
+                        <h5 class="mb-4">Audio & Visual Solutions</h5>
+                        <a class="btn btn-outline-light btn-lg m-2" style="background-color: aliceblue; color: black;" data-mdb-ripple-init href="" target="_blank"
+                        role="button">Click to make Booking</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+        <!-- Background image -->
+    </header>
+    <!--Main Navigation-->
+
     <!--about us section-->
-    <section class="" style="background-color: grey;">
+    <section class="about" style="background-color: grey;">
         <div class="">
-            <h1 class="text-uppercase"
-                style="color: white; font-size: 86px; margin-bottom: -50px; padding-top: 20px; padding-left: 40px;">
+            <h1 class="text-uppercase text-center"
+                style="color: white; font-size: 250%; margin-bottom: -50px; padding-top: 20px; padding-left: 40px;">
                 about us</h1>
+
             <div class="row" style="background-color: brown;">
-                <div class="col-md-8 px-5 pt-4" style="background-color: #996515; color: white; margin-top: 100px;">
+                <div class="col-lg-6 col-md-12 mt-5 px-5"
+                    style="background-color: #996515; color: white; margin-top: 100px;">
                     <h3 style="color: black;">INTRODUCTION</h3>
-                    <p>Topsound Entertainment is a leading entertainment company that
+                    <p class="px-5">Topsound Entertainment is a leading entertainment company that
                         <br> specializes in producing, promoting, and managing a variety of
                         <br> entertainment events with a focus on creativity, innovation, and excellence.
                         <br>
@@ -101,17 +167,17 @@
                         every one of our customers feels valued and appreciated.
                     </p>
                     <h3 style="color: black;">OUR VISION:</h3>
-                    <p>To create inspiring convention, exposition and entertainment experiences
+                    <p class="px-5">To create inspiring convention, exposition and entertainment experiences
                         <br> that exceed our customers’ expectations in an innovative and sustainable
                         <br>
                         way.
                     </p>
                     <h3 style="color: black;">OUR MISSION:</h3>
-                    <p>To provide high-quality entertainment services and experiences that inspire,
+                    <p class="px-5">To provide high-quality entertainment services and experiences that inspire,
                         <br> entertain, and enrich people's lives
                     </p>
                     <h3 style="color: black;">OUR CORE VALUES:</h3>
-                    <ul>
+                    <ul class="px-5">
                         <li>
                             <span style="color: black;">Creativity:</span>
                             We encourage and foster creativity in all aspects of our business, from the development of
@@ -129,19 +195,19 @@
                         </li>
                     </ul>
                     <h3 style="color: black;">MEMBERS OF STAFF.</h3>
-                    <p>We have a professional and engaging staff who are highly skilled,
+                    <p class="px-5">We have a professional and engaging staff who are highly skilled,
                         <br> experienced and spectacularly resourceful..
                     </p>
                     <h3 style="color: black;">OUR CLIENTS</h3>
-                    <p>The people we serve are our greatest precedence. Our services are tailored
+                    <p class="px-5">The people we serve are our greatest precedence. Our services are tailored
                         <br> to the specifications of our clients’ expectations.
                     </p>
                 </div>
-                <div class="col-md-4 mt-5" style="background-color: bisque;">
+                <div class="col-lg-6 col-md-12 mt-5" style="background-color: bisque;">
                     <div class="container">
                         <div class="circle" style="background-image: url('./img/martin.jpg');"></div>
                     </div>
-                    <div class="mx-2">
+                    <div class="mx-2 px-5">
                         <p> Welcome and thank you for choosing us as the
                             <br> leading entertainment service provider.
                         </p>
@@ -185,153 +251,90 @@
         </div>
     </section>
     <!--about us section-->
-    <!--our clients section-->
-    <section class="py-5 clientss" style="">
-        <div class="">
-            <div class="clients" style="padding-right: 70%; padding-top: 300px; margin-bottom: -48px;">
-                <div class="clientsss" style="">
-                    <div>
-                        <h3 class="text-center mb-3">Our clients</h3>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img class="img-fluid" src="./img/saf.png" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img class="img-fluid" src="./img/wrc.png" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img class="img-fluid" src="./img/eabl.png" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img class="img-fluid" src="./img/sagana.png" alt="">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img class="img-fluid" src="./img/meru.png" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img class="img-fluid" src="./img/safari.png" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img class="img-fluid" src="./img/tharaka.png" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img class="img-fluid" src="./img/methodist.png" alt="">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img class="" src="./img/ministry.png" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img class="" src="./img/un.png" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img class="" src="./img/police.png" alt="">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img class="img-fluid" src="./img/sagana.png" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img class="img-fluid" src="./img/laugh.png" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img class="img-fluid" src="./img/bank.png" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img class="img-fluid" src="./img/ncck.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--our clients section end-->
+
+    <div class="">
+        <iframe style="width: 100%; height: 300px;" src="./slider.html" frameborder=""></iframe>
+    </div>
+
     <!--new gallery section-->
     <div class="gallery">
         <div class="">
-            <img src="./img/events/chair.jpg" alt="">
+            <img class="img-fluid" src="./img/events/chair.jpg" alt="">
         </div>
         <div class="v-stretch">
-            <img src="./img/events/drums.jpg" alt="">
+            <img class="img-fluid" src="./img/events/drums.jpg" alt="">
         </div>
         <div class="h-stretch">
-            <img src="./img/events/deckk.jpg" alt="">
+            <img class="img-fluid" src="./img/events/deckk.jpg" alt="">
         </div>
         <div class="">
-            <img src="./img/events/marto.jpg" alt="">
+            <img class="img-fluid" src="./img/events/marto.jpg" alt="">
         </div>
         <div class="">
-            <img src="./img/events/topsound.jpg" alt="">
+            <img class="img-fluid" src="./img/events/topsound.jpg" alt="">
         </div>
         <div class="v-stretch">
-            <img src="./img/events/gava.jpg" alt="">
+            <img class="img-fluid" src="./img/events/gava.jpg" alt="">
         </div>
         <div class="big-stretch">
-            <img src="./img/events/church.jpg" alt="">
+            <img class="img-fluid" src="./img/events/church.jpg" alt="">
         </div>
         <div class="">
-            <img src="./img/events/annual.jpg" alt="">
+            <img class="img-fluid" src="./img/events/annual.jpg" alt="">
         </div>
         <div class="h-stretch">
-            <img src="./img/events/red.jpg" alt="">
+            <img class="img-fluid" src="./img/events/red.jpg" alt="">
         </div>
         <div class="">
-            <img src="./img/events/stage.jpg" alt="">
+            <img class="img-fluid" src="./img/events/stage.jpg" alt="">
         </div>
         <div class="">
-            <img src="./img/events/church.jpg" alt="">
+            <img class="img-fluid" src="./img/events/church.jpg" alt="">
         </div>
         <div class="">
-            <img src="./img/events/assembly.jpg" alt="">
+            <img class="img-fluid" src="./img/events/assembly.jpg" alt="">
         </div>
         <div class="v-stretch">
-            <img src="./img/events/speakers.jpg" alt="">
+            <img class="img-fluid" src="./img/events/speakers.jpg" alt="">
         </div>
         <div class="">
-            <img src="./img/events/stage2.jpg" alt="">
+            <img class="img-fluid" src="./img/events/stage2.jpg" alt="">
         </div>
         <div class="big-stretch">
-            <img src="./img/events/station.jpg" alt="">
+            <img class="img-fluid" src="./img/events/station.jpg" alt="">
         </div>
         <div class="">
             <img src="./img/events/bigtent.jpg" alt="">
         </div>
         <div class="h-stretch">
-            <img src="./img/events/blacktent.jpg" alt="">
+            <img class="img-fluid" src="./img/events/blacktent.jpg" alt="">
         </div>
         <div class="">
-            <img src="./img/events/diplomatic.jpg" alt="">
+            <img class="img-fluid" src="./img/events/diplomatic.jpg" alt="">
         </div>
         <div class="big-stretch">
-            <img src="./img/events/field.jpg" alt="">
+            <img class="img-fluid" src="./img/events/field.jpg" alt="">
         </div>
         <div class="">
-            <img src="./img/events/love.jpg" alt="">
+            <img class="img-fluid" src="./img/events/love.jpg" alt="">
         </div>
         <div class="">
-            <img src="./img/events/tv.jpg" alt="">
+            <img class="img-fluid" src="./img/events/tv.jpg" alt="">
         </div>
         <div class="v-stretch">
-            <img src="./img/events/day.jpg" alt="">
+            <img class="img-fluid" src="./img/events/day.jpg" alt="">
         </div>
         <div class="h-stretch">
-            <img src="./img/events/range.jpg" alt="">
+            <img class="img-fluid" src="./img/events/range.jpg" alt="">
         </div>
         <div class="h-stretch">
-            <img src="./img/events/room.jpg" alt="">
+            <img class="img-fluid" src="./img/events/room.jpg" alt="">
         </div>
     </div>
     <!--new gallery section-->
     <!--our services-->
-    <section class="ours">
+    <!-- <section class="ours">
         <div class="pt-5">
-            <!-- <hr class="solid mx-5"> -->
-            <!-- <hr> -->
             <div class="solid-white-line"></div>
             <div class="rectangle">
                 <div class="text-center">
@@ -342,7 +345,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--our services end-->
 
     <section>
@@ -350,7 +353,8 @@
             <div class="row">
                 <div class="col m-3" style="background-color: greenyellow;">
                     <div class="fidle">
-                        <p class="text-center pt-5" style="font-size: 24px;"><strong><br>01) Event and Music <br> Concert Livestream</strong></p>
+                        <p class="text-center pt-5" style="font-size: 24px;"><strong><br>01) Event and Music <br>
+                                Concert Livestream</strong></p>
                     </div>
                 </div>
                 <div class="col m-3">
@@ -358,7 +362,8 @@
                 </div>
                 <div class="col m-3" style="background-color: #0082ca;">
                     <div class="fidlee">
-                        <p class="text-center pt-5" style="font-size: 24px;"><strong><br>03) Video and Audio <br>Recording studio</strong></p>
+                        <p class="text-center pt-5" style="font-size: 24px;"><strong><br>03) Video and Audio
+                                <br>Recording studio</strong></p>
                     </div>
                 </div>
                 <div class="col m-3">
@@ -373,7 +378,8 @@
             </div>
             <div class="col m-3" style="background-color: #00AD8A;">
                 <div class="fidleee">
-                    <p class="text-center pt-5" style="font-size: 24px;"><strong> <br>02) Music training, <br>Audio services</strong></p>
+                    <p class="text-center pt-5" style="font-size: 24px;"><strong> <br>02) Music training, <br>Audio
+                            services</strong></p>
                 </div>
             </div>
             <div class="col m-3">
@@ -383,7 +389,8 @@
 
             <div class="col m-3" style="background-color: #55acee;">
                 <div class="">
-                    <p class="text-center pt-5" style="font-size: 24px;"><strong> <br>04) Photography & <br>Lighting Solution</strong></p>
+                    <p class="text-center pt-5" style="font-size: 24px;"><strong> <br>04) Photography & <br>Lighting
+                            Solution</strong></p>
                 </div>
             </div>
         </div>
@@ -393,62 +400,66 @@
     </section>
 
     <!--section-->
-    <!--section-->
     <!--our services section-->
-    <section class="" style="padding: 60px;">
-        <h1 class="" style="font-weight: bold;">OUR SERVICES</h1>
+    <section class="container" style="">
+        <h1 class="text-center" style="font-weight: bold;">OUR SERVICES</h1>
         <div>
             <div class="row">
-                <div class="col">
+                <div class="col-lg-6 col-md-12">
                     <p>
-                    <h2>a) Event and Music concert livestream</h2>
-                    <p> Sometimes you need to transcend physical settings and boundaries and bring your way of
-                        experience to the multitudes. Topsound will work with you to show your events across various
-                        social media platforms
-                        and ensure maximum visibility for your brand through our livestream services. We will broadcast
-                        your event to your target audience live.</p>
+                        <h2>a) Event and Music concert livestream</h2>
+                        <p> Sometimes you need to transcend physical settings and boundaries and bring your way of
+                            experience to the multitudes. Topsound will work with you to show your events across various
+                            social media platforms
+                            and ensure maximum visibility for your brand through our livestream services. We will
+                            broadcast
+                            your event to your target audience live.</p>
                     </p>
                     <p>
-                    <h2>b) Music training</h2>
-                    <p>We offer customized music training for our valued and esteemed clients. We use customized
-                        elements to help provide comprehensive music training for everyone.</p>
+                        <h2>b) Music training</h2>
+                        <p>We offer customized music training for our valued and esteemed clients. We use customized
+                            elements to help provide comprehensive music training for everyone.</p>
                     </p>
                     <p>
-                    <h2> c) Video and Photography</h2>
-                    <p>We will help you capture and document precious memories and stories of unforgettable personal and
-                        corporate events with specialized skills and experience.
-                        We are equipped with industry professional equipment and staff that will ensure continuity and
-                        professionalism.</p>
-                    <p> Our key clients and partners: Topsound Entertainment Co Ltd has worked with a wide range of
-                        clients which include Ministry of Education,
-                        United Nations, Safaricom, Tharaka University and Karatina University.</p>
+                        <h2> c) Video and Photography</h2>
+                        <p>We will help you capture and document precious memories and stories of unforgettable personal
+                            and
+                            corporate events with specialized skills and experience.
+                            We are equipped with industry professional equipment and staff that will ensure continuity
+                            and
+                            professionalism.</p>
+                        <p> Our key clients and partners: Topsound Entertainment Co Ltd has worked with a wide range of
+                            clients which include Ministry of Education,
+                            United Nations, Safaricom, Tharaka University and Karatina University.</p>
                     </p>
                 </div>
-                <div class="col">
+                <div class="col-lg-6 col-md-12">
                     <p>
-                    <h2>d) Video Display Solutions</h2>
-                    <p>We provide high-definition displays and innovative screen configurations.</p>
+                        <h2>d) Video Display Solutions</h2>
+                        <p>We provide high-definition displays and innovative screen configurations.</p>
                     </p>
                     <p>
-                    <h2> e) Audio services</h2>
-                    <p> We offer indoor and outdoor top-of-the line audio equipment
-                        coupled with a specialist team of sound engineers & technicians that guarantees audience and
-                        client satisfaction. In addition, we have a variety of speakers, mixers, controllers, wired,
-                        wireless and specialty microphones, to ensure flexibility
-                        and clarity of sound throughout the event venue. </p>
+                        <h2> e) Audio services</h2>
+                        <p> We offer indoor and outdoor top-of-the line audio equipment
+                            coupled with a specialist team of sound engineers & technicians that guarantees audience and
+                            client satisfaction. In addition, we have a variety of speakers, mixers, controllers, wired,
+                            wireless and specialty microphones, to ensure flexibility
+                            and clarity of sound throughout the event venue. </p>
                     </p>
                     <p>
-                    <h2> f) Lighting Solution</h2>
-                    <p> We have a remarkable collection of inventories to handle lighting solutions that heighten the
-                        event experience for your audience. Our experienced team will find the perfect
-                        solution for your event and stage lighting needs by connecting the power of artistic
-                        illumination, impact and emotion to big and small functions.</p>
+                        <h2> f) Lighting Solution</h2>
+                        <p> We have a remarkable collection of inventories to handle lighting solutions that heighten
+                            the
+                            event experience for your audience. Our experienced team will find the perfect
+                            solution for your event and stage lighting needs by connecting the power of artistic
+                            illumination, impact and emotion to big and small functions.</p>
                     </p>
                     <p>
-                    <h2>g ) Stagging</h2>
-                    <p> Our Staging Designs solutions include indoor and outdoor stages in all sizes and shapes
-                        for all kinds of events to suit our client’s needs, using only the very best materials to ensure
-                        the finished product will impress.</p>
+                        <h2>g ) Stagging</h2>
+                        <p> Our Staging Designs solutions include indoor and outdoor stages in all sizes and shapes
+                            for all kinds of events to suit our client’s needs, using only the very best materials to
+                            ensure
+                            the finished product will impress.</p>
                     </p>
                 </div>
             </div>
@@ -522,7 +533,7 @@
                             <div class="col">
                                 <!--url link-->
                                 <a class="btn" style="background-color: #AC6AE6;" href="#!" role="button">
-                                    <i style="" class="fa-solid fa-globe"></i>
+                                    <i class="fa-solid fa-globe"></i>
                                 </a>
                                 <a href="">www.topsound.co.ke</a>
                             </div>
@@ -538,9 +549,72 @@
 </div>
 </section>
 <!--footer-->
+<script src="script.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+<div class="brands">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="brands_slider_container">
+                    <div class="owl-carousel owl-theme brands_slider">
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img
+                                    src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_1.jpg"
+                                    alt=""></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img
+                                    src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_2.jpg"
+                                    alt=""></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img
+                                    src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_4.jpg"
+                                    alt=""></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img
+                                    src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_5.jpg"
+                                    alt=""></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img
+                                    src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_3.jpg"
+                                    alt=""></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img
+                                    src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_6.jpg"
+                                    alt=""></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img
+                                    src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_7.jpg"
+                                    alt=""></div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="brands_item d-flex flex-column justify-content-center"><img
+                                    src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1561819026/brands_8.jpg"
+                                    alt=""></div>
+                        </div>
+                    </div> <!-- Brands Slider Navigation -->
+                    <div class="brands_nav brands_prev"><i class="fas fa-chevron-left"></i></div>
+                    <div class="brands_nav brands_next"><i class="fas fa-chevron-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./scriptt.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
 </body>
 
 </html>
